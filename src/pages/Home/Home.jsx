@@ -1,10 +1,11 @@
 import React from "react";
+import Hero from "./Hero";
 
 function Home() {
   return (
-    <div>
-      <h1>This is the home page</h1>
-    </div>
+    <React.Fragment>
+      <Hero />
+    </React.Fragment>
   );
 }
 

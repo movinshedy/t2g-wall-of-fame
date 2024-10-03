@@ -14,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         padding: 0 2rem;
         font-family: "Josefin Sans", system-ui;
-        font-size: 1.6rem;
+        font-size: ${({ theme }) => theme.fontSizes.normal};
         color: ${({ theme }) => theme.colors.black};
     }
 `;
