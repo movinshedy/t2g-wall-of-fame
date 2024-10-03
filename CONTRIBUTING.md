@@ -50,7 +50,7 @@ Carefully follow the guidelines below:
    headshot: require('../assets/your-headshot-file.jpg'), // Import your headshot image
    excerpt: "A short excerpt (40-50 words) describing yourself briefly.",
    portfolioUrl: "/your-portfolio-path", // e.g., '/john'
-   gitHubUrl: "https://github.com/your-github-username" // Your GitHub URL
+   githubUrl: "https://github.com/your-github-username" // Your GitHub URL
    }
    ```
 1. Under the src/pages folder, create a new folder that will contain all the components, code, images, etc., for your portfolio. Name this folder after your GitHub account. For example, if your github account's name is codeme254, then the folder will be named as codeme254.
