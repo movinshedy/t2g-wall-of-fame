@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
     *, *::after, *::before {
@@ -17,5 +17,5 @@ const GlobalStyles = createGlobalStyle`
         font-size: 1.6rem;
         color: ${({ theme }) => theme.colors.black};
     }
-`
+`;
 export default GlobalStyles;
