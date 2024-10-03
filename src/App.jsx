@@ -4,6 +4,7 @@ import GlobalStyles from "./global-styles/global-styles";
 import theme from "./theme/theme";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );
