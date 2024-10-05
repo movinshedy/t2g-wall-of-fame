@@ -34,7 +34,7 @@ function About() {
         subTitle="Passionate about crafting innovative solutions and building exceptional digital experiences."
       />
       <AboutMe />
-    </AboutMeContainer>
+      </AboutMeContainer>
   );
 }
 

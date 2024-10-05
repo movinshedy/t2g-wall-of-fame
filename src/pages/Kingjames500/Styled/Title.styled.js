@@ -11,6 +11,7 @@ export const SectionTitle = styled.div`
     font-weight: 600;
   }
   h2 {
+    margin-top: 1rem;
     letter-spacing: 2px;
     font-size: 3rem;
     text-shadow: 0 0 2rem currentColor;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
-  margin-top: 4rem;
+  margin: 5rem 0;
 `;
 
 export const AboutMeCard = styled.div`

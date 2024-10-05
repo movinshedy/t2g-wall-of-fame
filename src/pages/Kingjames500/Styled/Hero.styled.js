@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  margin-top: 3rem;
+  margin: 3rem 0;
 `;
 
 export const HeroCard = styled.div`
@@ -19,7 +19,6 @@ export const HeroTitle = styled.div`
   padding: 2rem;
   margin: 2rem;
   width: 50%;
-  border: 2px solid blue;
   text-align: center;
 
   @media screen and (max-width: 37.5em) {
