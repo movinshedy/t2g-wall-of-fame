@@ -2,6 +2,7 @@ import {
   TechnologiesCard,
   ImgCard,
   TechnologiesContainer,
+  TechnologiesSection
 } from "../../Styled/Technologies.styled";
 import Title from "../Title/Title";
 import technologies from "../../data/Technologies";
@@ -20,7 +21,7 @@ function TechnologiesIllustration({ logo, title, description }) {
 
 function Technologies() {
   return (
-    <>
+    <TechnologiesSection>
       <Title
         mainTitle="Tech Stack & Skills"
         subTitle="Tools and technologies I use to build exceptional digital experiences."
@@ -35,7 +36,7 @@ function Technologies() {
           />
         ))}
       </TechnologiesContainer>
-    </>
+    </TechnologiesSection>
   );
 }
 
