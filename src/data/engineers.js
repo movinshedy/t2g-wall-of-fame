@@ -1,5 +1,6 @@
 import mosesmukabi from '../assets/mosesmukabi.jpg'
 import kingjames500Img from '../assets/kingjames500-headshot.jpg';
+import saladImg from "../assets/salad.jpg";
 const engineers = [
     {
         headshot: mosesmukabi,
@@ -16,5 +17,12 @@ const engineers = [
     portfolioUrl: "/kingjames500", // e.g., '/john'
     githubUrl: "https://github.com/kingjames500", // Your GitHub URL
   },
+  {
+        headshot: saladImg,
+        name: 'salad mohamed',
+        excerpt: "As a software engineer, I bring proficiency in front-end and back-end development technologies, including HTML, CSS, JavaScript, and various programming languages. With hands-on experience, I excel in creating responsive and dynamic web applications. I am committed to continuous growth and innovation in the ever-evolving field of software engineering.",
+        portfolioUrl: "/index",
+        githubUrl: "https://github.com/salutahmoha"
+    },
 ]
 export default engineers;
