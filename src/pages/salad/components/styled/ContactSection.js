@@ -81,6 +81,21 @@ const ContactStyled = styled.div`
   .rotating-earth {
     animation: rotate 20s linear infinite;
   }
+
+  @media screen and (max-width: 60.94rem){
+    .contact-info{
+        width: 45rem;
+    }
+  }
+  @media screen and (max-width: 56.25rem){
+    .contact-info{
+        width: 50rem;
+    }
+    .Contact{
+        flex-direction: column;
+        padding: 0px 30px 20px 30px;
+    }
+  }
 `;
 
 export default ContactStyled;
