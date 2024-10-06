@@ -12,9 +12,9 @@ function Kingjames500() {
       <Technologies />
       <Projects />
       <About />
-      {/* <Contacts /> */}
+      <Contacts />
     </React.Fragment>
-  )
+  );
 }
 
-export default Kingjames500
+export default Kingjames500;
