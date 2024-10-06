@@ -57,22 +57,25 @@ export const ProjectCard = styled.div`
   border-radius: 9px;
   overflow: hidden;
   h2 {
-    margin: 1rem;
-    font-size: 2.5rem;
+    margin: 0.8rem;
+    font-size: 1.8rem;
     font-weight: 900;
     text-transform: capitalize;
     line-height: 1.5;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
+    /* border: 2px solid blue; */
+    height: 5rem;
   }
 
   p {
     margin: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.3;
     letter-spacing: 1px;
     text-align: center;
+    height: 8.5rem;
   }
 `;
 
