@@ -1,24 +1,24 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com"; // Import EmailJS
+import emailjs from "emailjs-com"; 
 import ContactStyled from "../styled/ContactSection";
 import world3 from "../../images/world3.png";
 
 function ContactSection() {
-  const form = useRef(); // Create a reference for the form
+  const form = useRef(); 
 
   const sendEmail = (e) => {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault();
 
     emailjs
-      .sendForm('service_vm8b18j', 'template_15073nf', form.current, 'QHYsHBXwrT34pbbsFklv5') // Use your EmailJS credentials
+      .sendForm('service_vm8b18j', 'template_15073nf', form.current, '5mfCIIOmAV8MxtpFA')
       .then((result) => {
         console.log(result.text);
-        alert("Message sent successfully!"); // Notify user on success
-        form.current.reset(); // Reset the form
+        alert("Message sent successfully!");
+        form.current.reset();
       })
       .catch((error) => {
         console.log(error.text);
-        alert("Failed to send message. Please try again."); // Notify user on error
+        alert("Failed to send message. Please try again."); 
       });
   };
 

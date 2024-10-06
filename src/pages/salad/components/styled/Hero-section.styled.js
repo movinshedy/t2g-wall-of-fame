@@ -76,13 +76,18 @@ const HeroStyled = styled.div`
         object-fit: cover;
       }
     }
-
     @media screen and (max-width: 56.25em) {
-      .hero-container {
-        max-width: 100%;
-        flex-direction: column;
-      }
+      width: 100%;
+      max-width: 100%;
+    flex-direction: column;
+    height: 80rem;
+    padding-top: 3rem;
+
+    .hero-img{
+      width: auto;
+      text-align: center;
     }
+  }
   }
 `;
 
