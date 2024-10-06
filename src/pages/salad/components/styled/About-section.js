@@ -90,6 +90,23 @@ const AboutStyled = styled.div`
     cursor: pointer;
     color: #000;
   }
+
+  @media screen and (max-width: 56.25rem) {
+    .about{
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .about-div{
+      margin-bottom: 2rem;
+    }
+    .about-experience-div{
+      gap: 5rem;
+    }
+    .about-experience-div p{
+      font-size: 2rem;
+    }
+  }
 `;
 
 export default AboutStyled;

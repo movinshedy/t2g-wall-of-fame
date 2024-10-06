@@ -79,9 +79,9 @@ const HeroStyled = styled.div`
     @media screen and (max-width: 56.25em) {
       width: 100%;
       max-width: 100%;
-    flex-direction: column;
-    height: 80rem;
-    padding-top: 3rem;
+      flex-direction: column;
+      height: 80rem;
+      padding-top: 3rem;
 
     .hero-img{
       width: auto;
